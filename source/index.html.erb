@@ -3,7 +3,7 @@ title: We are Uncommon
 ---
 
 <header>
-  <h1>Uncommon</h1>
+  <h1>uncommon</h1>
 
   <nav>
     <ul>
@@ -25,63 +25,9 @@ title: We are Uncommon
 
 <section id="our-work">
   <h2>Great people we have worked with</h2>
-  
-  <ul>
-  <% [
-       "newshunt",
-       "flipkart",
-       "zipdial",
-       "myntra",
-       "yourstory",
-       "toppr",
-       "vwo",
-       "fabhotels",
-       "wah",
-       "mysmartprice",
-       "swiggy",
-       "limeroad",
-       "groupon",
-       "urbanclap",
-       "klp",
-       "simplotel",
-       "monkeybar",
-       "zoomcar",
-       "airgol",
-       "mad",
-       "dunzo",
-       "pycon",
-       "peerwater",
-       "rubymonk",
-       "hasgeek",
-       "flutura",
-       "poshvine",
-       "aruba",
-       "maas360",
-       "insider",
-       "mygola",
-       "ubona",
-       "grasshopper",
-       "ashokahub",
-       "choicelunch",
-       "burrp",
-       "practo",
-       "payzippy",
-       "zomato",
-       "collageflow",
-       "quint",
-       "agropedia",
-       "vee",
-       "workspan",
-       "sliderule",
-       "likethatonly",
-       "healthi",
-       "citrus",
-     ].each do |client|  %>
-    <li class="client-<%= client %>">
-      <img src="images/clients/<%=client%>.png" alt="">
-    </li>
-  <% end %> 
-  </ul>
+
+  <%= partial "pages/home/clients" %>
+
 </section>
 
 <section id="about-us">

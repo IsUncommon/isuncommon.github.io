@@ -20,3 +20,21 @@
     @include divider;
   }
 }
+
+#contact-us {
+  background: #f8f8f8;
+  max-width: 100%;
+  padding: 10vh;
+
+  a {
+    display: block;
+    font-weight: 500;
+    color: #00BC9B;
+    text-decoration: none;
+
+    &:hover {
+      color: #00BC9B;
+      text-decoration: underline;
+    }
+  }
+}

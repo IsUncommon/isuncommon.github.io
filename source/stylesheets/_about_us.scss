@@ -3,13 +3,14 @@
   max-width: 100%;
   padding-top: 5%;
   padding-bottom: 150vw;
-  background: #fff image-url('images/about-us-mobile.jpg') center 40vh no-repeat;
+  background: #fff image-url('about-us-mobile.jpg') center 40vh no-repeat;
   background-size: 90%;
 
   @include breakpoint(800px) {
     height: 100vh;
     padding-bottom: 10vh;
-    background-image: image-url('images/about-us.jpg');
+    background-image: image-url('about-us.jpg');
+    background-position: center 50vh;
   }
 
   @include breakpoint(1400px) {

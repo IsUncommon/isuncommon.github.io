@@ -1,6 +1,20 @@
+body {
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+h1,
+#about-us h2,
+#contact-us h2 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 300;
+  margin: 0;
+}
+
+
 h2 {
   font-size: 28px;
   line-height: 38px;
   color: #5b5e60;
-  font-weight: 300;
+  font-weight: 400;
 }

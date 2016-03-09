@@ -1,7 +1,23 @@
 #our-work {
   display: block;
   text-align: center;
+  max-width: 100%;
+  padding: 0 0 60px 0;
   @include clearfix;
+
+  h2 {
+    margin: 15vh 0 10vh 0;
+    text-align: center;
+
+    &::after {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 60px;
+      height: 60px;
+      background: transparent image-url("images/icons/arrow_down.png") no-repeat center center;
+    }
+  }
 
   ul {
     display: block;

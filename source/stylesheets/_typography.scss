@@ -1,5 +1,7 @@
 body {
   font-family: "brandon-grotesque", sans-serif;
+  font-size: 28px;
+  line-height: 38px;
 }
 
 h1,
@@ -9,6 +11,7 @@ h1,
   line-height: 80px;
   font-weight: 300;
   margin: 0;
+  color: #000;
 }
 
 
@@ -17,4 +20,8 @@ h2 {
   line-height: 38px;
   color: #5b5e60;
   font-weight: 400;
+}
+
+p {
+  color: #5b5e60;
 }
